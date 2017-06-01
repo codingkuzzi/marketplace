@@ -17,3 +17,10 @@ body {
   padding-bottom: 25px;
   background-image: url(../img/1.jpeg);
 }
+
+body {
+  font-size: 300%;
+  font-weight: 6000;
+  color: gold;
+
+}
