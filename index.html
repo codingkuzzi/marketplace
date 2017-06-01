@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+    <body>
+      <div class="container">
+        <h1 class="jumbotron" id="header">$$$$$$ Hat & Sweater Store $$$$$</h1>
+        <form id="market">
+          <div class="radio">
+            <h4>Buy a hat or sweater</h4>
+            <label>
+              <input type="radio" name="item" value="sweater" checked>
+              Sweater 15.99
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="hat">
+              Hat 19.99
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+          <label for="delivery">Choose delivery service!</label>
+          <select class="form-control" id="delivery">
+            <option>Same Day</option>
+            <option>Next Day</option>
+            <option>Two Days</option>
+            <option>Five Days</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Buy!</button>
+        </form>
+      <div id="output">
+      </div>
+    </div>
+  </body>
+</html>
